@@ -25,8 +25,11 @@
     "dist"
   ],
   "scripts": {
+    "dev": "echo dev",
+    "build": "echo build",
     "lint": "eslint .",
-    "release": "lvr --no-push"
+    "prepublishOnly": "nr build",
+    "r": "lvr --no-push"
   },
   "devDependencies": {
     "@lvjiaxuan/eslint-plugin": "^0.12.0",
