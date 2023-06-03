@@ -7,3 +7,8 @@
 [![](https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/lvjiaxuan.vscode-eslint-disable?label=Installs)](https://marketplace.visualstudio.com/items?itemName=lvjiaxuan.vscode-eslint-disable)
 
 https://shields.io/
+
+
+```sh
+degit lvjiaxuan/starter-ts
+```
