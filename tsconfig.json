@@ -9,8 +9,5 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ],
-  "vueCompilerOptions": {
-    "target": 3.3
-  }
+  ]
 }
