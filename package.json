@@ -32,11 +32,10 @@
     "r": "lvr --no-push"
   },
   "devDependencies": {
-    "@lvjiaxuan/eslint-plugin": "^0.16.0",
-    "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^20.6.0",
+    "@lvjiaxuan/eslint-plugin": "^0.20.0",
+    "@types/node": "^20.7.0",
     "@vue/tsconfig": "^0.4.0",
-    "eslint": "^8.49.0",
+    "eslint": "^8.50.0",
     "typescript": "^5.2.2"
   }
 }
