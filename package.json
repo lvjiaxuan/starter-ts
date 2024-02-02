@@ -28,14 +28,13 @@
     "dev": "echo dev",
     "build": "echo build",
     "lint": "eslint .",
-    "prepublishOnly": "nr build",
-    "r": "lvr --no-push"
+    "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@lvjiaxuan/eslint-plugin": "^0.20.0",
-    "@types/node": "^20.10.1",
-    "@vue/tsconfig": "^0.4.0",
-    "eslint": "^8.54.0",
-    "typescript": "^5.3.2"
+    "@lvjiaxuan/eslint-config": "^1.8.2",
+    "@types/node": "^20.11.16",
+    "eslint": "^8.56.0",
+    "oxlint": "^0.2.6",
+    "typescript": "^5.3.3"
   }
 }

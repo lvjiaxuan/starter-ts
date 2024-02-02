@@ -1,3 +1,5 @@
+# Badges
+
 [![npm](https://img.shields.io/npm/v/@lvjiaxuan/eslint-config)](https://www.npmjs.com/package/@lvjiaxuan/eslint-config)
 
 ![](https://github.com/lvjiaxuan/vscode-eslint-disable/actions/workflows/ci.yml/badge.svg)
@@ -9,6 +11,8 @@
 https://shields.io/
 
 
+# Usage
+
 ```sh
-degit lvjiaxuan/starter-ts
+npx degit lvjiaxuan/starter-ts
 ```
