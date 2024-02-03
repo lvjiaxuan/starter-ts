@@ -28,7 +28,7 @@
   "scripts": {
     "dev": "echo dev",
     "build": "echo build",
-    "lint": "eslint .",
+    "lint": "oxlint . && eslint .",
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
@@ -45,6 +45,6 @@
     ]
   },
   "lint-staged": {
-    "*": "eslint --fix"
+    "*": ["oxlint --fix", "eslint --fix"]
   }
 }
