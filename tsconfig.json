@@ -1,5 +1,4 @@
 {
-  "include": ["**/*.ts"],
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext"],
@@ -7,9 +6,18 @@
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "strict": true,
-    "strictNullChecks": true,
-    "esModuleInterop": true,
-    "skipDefaultLibCheck": true,
-    "skipLibCheck": true
-  }
+    "esModuleInterop": true
+  },
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.test.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "files": []
 }

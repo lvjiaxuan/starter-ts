@@ -10,7 +10,6 @@
 
 https://shields.io/
 
-
 # Usage
 
 ```sh
