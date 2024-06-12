@@ -3,10 +3,10 @@
   "type": "module",
   "version": "0.0.0",
   "private": false,
-  "packageManager": "pnpm@8.15.4",
   "description": "",
   "author": "lvjiaxuan <471501748@qq.com> (https://github.com/lvjiaxuan)",
   "license": "MIT",
+  "homepage": "https://github.com/lvjiaxuan/pkg-name",
   "repository": {
     "type": "git",
     "url": "https://github.com/lvjiaxuan/pkg-name"
@@ -28,14 +28,13 @@
   "scripts": {
     "dev": "echo dev",
     "build": "echo build",
-    "test": "vitest --globals",
+    "test": "vitest",
     "lint": "oxlint && eslint",
     "lint:fix": "oxlint --fix && eslint --fix",
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
     "@lvjiaxuan/eslint-config": "^1.10.1",
-    "@lvjiaxuan/eslint-plugin-oxlint": "^1.9.1",
     "@types/node": "^20.14.2",
     "eslint": "^9.4.0",
     "oxlint": "^0.4.3",
