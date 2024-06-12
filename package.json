@@ -29,8 +29,8 @@
     "dev": "echo dev",
     "build": "echo build",
     "test": "vitest --globals",
-    "lint": "oxlint . && eslint .",
-    "lint:fix": "oxlint . --fix && eslint . --fix",
+    "lint": "oxlint && eslint",
+    "lint:fix": "oxlint --fix && eslint --fix",
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
