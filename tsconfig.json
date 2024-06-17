@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
     "lib": ["ESNext"],
     "moduleDetection": "force",
     "module": "preserve",
@@ -8,6 +10,7 @@
     "resolveJsonModule": true,
     "allowJs": true,
     "strict": true,
+    "strictNullChecks": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
     "noEmit": true,
